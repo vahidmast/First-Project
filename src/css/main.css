@@ -23,6 +23,8 @@ header{
     padding:20px 0px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    
 }
 nav{
     padding: 0;
@@ -58,10 +60,10 @@ nav a{
 .register:hover{
     background-color: rgb(153,153,153 );
 }
-.ikincidiv{
-    width: 517px;
+.section__home{
+    width: 40%;
     height: 375px;
-    margin: 200px 0 0 80px;
+    margin: 200px 0 0 7%;
 }
 .join{
     font-family:sans-serif;
@@ -96,7 +98,7 @@ nav a{
     font-size: 12.8px;
     font-family: sans-serif;
 }
-.serve{
+.home__title{
     color: white;
     font-size: 80px ;
     font-family: sans-serif;
@@ -142,19 +144,17 @@ nav a{
     color: white;
 }
 .three{
-    width: 1423px;
+    width: 100%;
     height: 562px;
     font-family: sans-serif;
     margin-top: 200px;
-    padding: 80px;
+    padding: 7%;
 }
 .threeic{
     display: flex;
 }
 .threeic1{
-    width: 378px;
     height: 362px;
-    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -267,13 +267,13 @@ nav a{
     border-bottom: 4px solid rgb(90,79,207);
 }
 .six{
+    display: flex;
+    justify-content: space-between;
     width: 100%;
     height: 625px;
-    padding: 160px;
-    display: inline-block;
+    padding: 11.5%;
 }
 .sixic1{
-    width: 520px;
     height: 265px;
     margin: 20px 10px 20px 10px;
     padding: 20px;
@@ -285,7 +285,6 @@ nav a{
 .sixic2{
     transition: 0.3s ease all;
     float: right;
-    width: 520px;
     height: 265px;
     margin: 20px 10px 20px 10px;
     padding: 20px;
